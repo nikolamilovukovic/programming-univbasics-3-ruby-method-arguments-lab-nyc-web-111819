@@ -14,7 +14,7 @@ def introduction_with_language(name, language)
 end
 def introduction_with_language_optional(name, language = "Ruby")
   puts "Hi, my name is #{name} and i am learning to program in #{language}"
-  introduction_with_language_optional("Edwin")
+  introduction_with_language_optional("Edwin", "language")
 end
   
 
